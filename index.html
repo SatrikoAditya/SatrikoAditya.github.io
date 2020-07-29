@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satriko Travel</title>
+    <link rel="icon" href="IconBali.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="firstpage">
+        <br><br><br><br><br>
+        <img src="IconBali.png" style="display: block; margin: auto;">
+        <h1 class="title">A Better Way To<br><span class="font-orange"> Travel To Bali</span></h1>
+        <p>Cheapest and Easier</p><br><br>
+        <a class="button1" href="#about">About Us</a>
+        <a class="button2" href="#reservation">Reservation</a>
+        
+    </div>
+    <div class="secondpage" id="about">
+        <br><br><br><br><br>
+        <h1 class="title">About Us</h1>
+        <p>More than 10 years, Satriko Travel Services has grow at a <br>steady pace and become one of Indonesia's leading travel agent<br> offering a complete travel solution for both leisure and business <br>travels. The company has over 500 staff within 24 branches <br>across the country.</p>
+    </div>
+    <div class="thirdpage" id="reservation">
+        <br>
+        <h1 class="title" id="reservation">Reservation</h1>
+        <form>
+            <input type="text" id="name" placeholder="Input Your Name..." class="reserv"><br>
+            <input type="email" id="email" placeholder="Input Your Email..." class="reserv"><br>
+            <input type="text" id="phone" placeholder="Phone Number..." class="reserv"><br>
+            <input list="nationally" name="nationally" class="reserv" placeholder="Select Your Nationally">
+            <datalist id="nationally">
+                <option value="Indonesia">
+                <option value="Malaysia">
+                <option value="Singapore">
+                <option value="Australia">
+                <option value="Other">
+            </datalist><br> 
+            <textarea class="textarea" placeholder="Explain About Your Trip"></textarea><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
